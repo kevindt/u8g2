@@ -13,7 +13,7 @@
 
 
 // Constructors
-U8G2_SH1106_128X64_NONAME_1_2ND_HW_I2C u8g2(U8G2_R0, /* reset=*/ U8X8_PIN_NONE);
+U8G2_SH1106_128X64_NONAME_1_2ND_HW_I2C u8g2(U8G2_R0, /* reset=*/ U8X8_PIN_NONE);  // SH1106 128x64 OLED on i2c1 pico default pins (pins 26, 27)
 
 //Variables
 const char *string_list = 
